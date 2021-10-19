@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="head">
+		<img src="./imgs/logo.png" alt="">
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="gywm.html">关于我们</a></li>
+			<li><a href="gsdt.html">公司动态</a></li>
+			<li><a href="pcsp.html">产品测评</a></li>
+			<li><a href="shzp.html">社会招聘</a></li>
+			<li><a href="lxwm.html">联系我们</a></li>
+		</ul>
+	</div>
+	
+	<div class="cont1">
+		<div class="left">
+			<img src="./imgs/banner.jpg" alt="">
+		</div>
+		<div class="right">
+			<div class="title">
+		    &nbsp;品牌官网</div>
+			<ul>
+				<li><a href="https://www.apple.com.cn/">Apple/苹果</a></li>
+				<li><a href="https://www.lenovo.com.cn/">Lenovo/联想</a></li>
+				<li><a href="https://www.asus.com.cn/">ASUS/华硕</a></li>
+				<li><a href="https://www.hp.com/">HP/惠普</a></li>
+				<li><a href="https://cn.msi.com/">MSI/微星</a></li>
+				<li><a href="https://www.dell.com/">DELL/戴尔</a></li>
+				<li><a href="http://www.hasee.com/">Hasee/神舟</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="gywm">
+		<div class="title">
+			评测视频
+		</div>
+		<div style="text-align: center;">
+			<video controls style="width: 90%;margin: 50px auto;">
+				<source src="./video/video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<script>
+		var weekDayLabels = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+		var now = new Date();
+		var year=now.getFullYear();
+		var month=now.getMonth()+1;
+		var day=now.getDate()
+		var currentime = '<span class="special">'+year+'年'+month+'月'+day+'日                '+weekDayLabels[now.getDay()]+'</span><br>'
+		document.write(currentime)
+      </script>
+	</div>
+</body>
+</html>
